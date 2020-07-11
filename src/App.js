@@ -31,6 +31,7 @@ class App extends Component {
 			editItem: false,
 		});
 	};
+	clearList = () => {};
 	handleDelete = (id) => {
 		console.log(`handle delete ${id}`);
 	};
@@ -52,7 +53,7 @@ class App extends Component {
 								editItem={this.state.editItem}
 							/>
 							<TodoList
-								items={this.state.item}
+								items={this.state.items}
 								clearList={this.clearList}
 								handleDelete={this.handleDelete}
 								handleEdit={this.handleEdit}
