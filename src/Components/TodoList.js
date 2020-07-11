@@ -5,7 +5,7 @@ class TodoList extends Component {
 	render() {
 		return (
 			<section>
-				<h2>hi list</h2>
+				<h2>hi from Todo list</h2>
 				<Item />
 			</section>
 		);
